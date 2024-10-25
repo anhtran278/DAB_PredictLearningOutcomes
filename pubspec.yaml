@@ -1,0 +1,41 @@
+name: namer_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 0.0.1+1
+
+environment:
+  sdk: ^3.1.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.0.3 
+
+  english_words: ^4.0.0
+  provider: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+fonts: 
+  - family: Poppins
+    fonts:
+      - asset: fonts/Poppins-Thin.ttf
+      - asset: fonts/Poppins-Light.ttf
+      - asset: fonts/Poppins-Regular.ttf
+      - asset: fonts/Poppins-Medium.ttf
+      - asset: fonts/Poppins-SemiBold.ttf
+      - asset: fonts/Poppins-Bold.ttf
+      
+flutter:
+  uses-material-design: true
+  
+  assets:
+  - assets/images/Screen_1.png
+  - assets/icons/home.svg
+  - assets/icons/leftCircle.svg
+  - assets/icons/rightCircle.svg
