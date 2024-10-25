@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart'; // Import the flutter_svg package
 
-class question_1 extends StatelessWidget {
-  const question_1({super.key});
+class Ques1 extends StatelessWidget {
+  const Ques1({super.key});
 
   @override
   Widget build(BuildContext context) {

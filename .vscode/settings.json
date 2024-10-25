@@ -1,3 +1,16 @@
 {
-    "cmake.sourceDirectory": "D:/VLU/Flutter/flutter_application_2/linux"
+    "cmake.sourceDirectory": "D:/VLU/Flutter/flutter_application_2/linux",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
+    "dart.previewFlutterUiGuides": true,
+    "eslint.enable": true,
+    "prettier.requireConfig": true,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.formatting.provider": "black",
+    "typescript.tsdk": "node_modules/typescript/lib",
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000
 }

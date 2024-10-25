@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'question_1.dart'; // Import the question screen
+import 'Ques1.dart'; // Import màn hình câu hỏi
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -9,14 +9,14 @@ class WelcomeScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          // Main content of the screen
+          // Nội dung chính của màn hình
           SingleChildScrollView(
             child: Center(
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Image.asset(
-                    'assets/images/Screen_1.png',
+                    'assets/images/Intro.png',
                     fit: BoxFit.contain,
                   ),
                 ],
@@ -24,18 +24,19 @@ class WelcomeScreen extends StatelessWidget {
             ),
           ),
 
-          // Fixed, hidden but clickable button
+          // Nút cố định, ẩn nhưng vẫn có thể bấm được
           Positioned(
-            bottom: 37, // Adjust position as needed
-            right: 30, // Adjust position as needed
+            bottom: 37, // Điều chỉnh vị trí như mong muốn
+            right: 30, // Điều chỉnh vị trí như mong muốn
             child: Opacity(
-              opacity: 0.0, // Make the button visible
+              opacity:
+                  0.0, // Nếu muốn thấy nút mờ thì thay đổi thành giá trị thấp hơn
               child: ElevatedButton(
                 onPressed: () {
-                  // Navigate to the QuestionScreen
+                  // Điều hướng đến màn hình câu hỏi
                   Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => question_1()),
+                    MaterialPageRoute(builder: (context) => Ques1()),
                   );
                 },
                 style: ElevatedButton.styleFrom(
